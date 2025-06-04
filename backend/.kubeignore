@@ -1,0 +1,12 @@
+# Kubernetes tool ignore
+.DS_Store
+README.md
+*.md
+*.bak
+*.orig
+tests/
+docs/
+
+# Cursor
+.cursor/
+cursor.config.json

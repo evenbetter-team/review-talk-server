@@ -1,0 +1,62 @@
+
+
+# Python
+# refer to https://github.com/github/gitignore/blob/main/Python.gitignore
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Environment
+.venv/
+.env
+.venv
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Cursor
+#  Cursor is an AI-powered code editor. `.cursorignore` specifies files/directories to
+#  exclude from AI features like autocomplete and code analysis. Recommended for sensitive data
+#  refer to https://docs.cursor.com/context/ignore-files
+.cursorignore
+.cursorindexingignore
+.cursor/
+cursor.config.json
+
+# IDE/Editor
+.vscode/
+.idea/
+*.iml
+
+# Logs & DB
+/logs/
+*.log
+*.tmp
+*.sqlite
+*.db
+*.sqlite3
+debug/
+
+# Test/Docs
+test/
+docs/
+
+# Codegen/OpenAPI
+openapi.json
+*.schema.json
+
+# OS
+.DS_Store

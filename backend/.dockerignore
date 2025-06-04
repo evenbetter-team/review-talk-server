@@ -1,0 +1,30 @@
+# Python cache/build
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+.env
+*.log
+
+# IDE/Editor
+.idea/
+.vscode/
+
+# Test/Docs
+test/
+docs/
+*.md
+
+# OS
+.DS_Store
+
+# Cursor
+.cursor/
+cursor.config.json
+
+# Coverage
+coverage
+.env
+.env.*

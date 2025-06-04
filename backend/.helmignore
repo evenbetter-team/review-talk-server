@@ -1,0 +1,17 @@
+# Helm chart ignore
+.DS_Store
+.git/
+.gitignore
+*.swp
+*.bak
+*.tmp
+*.orig
+test/
+docs/
+*.md
+charts/
+*.tgz
+
+# Cursor
+.cursor/
+cursor.config.json

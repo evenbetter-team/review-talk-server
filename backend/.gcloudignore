@@ -1,0 +1,37 @@
+# Same as .dockerignore, but specific to GCP App Engine or Cloud Run
+
+# Git
+.git/
+.gitignore
+
+# Editor/IDE
+.vscode/
+.idea/
+*.iml
+
+# Build/Cache
+build/
+.dart_tool/
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+.venv/
+.env
+*.log
+
+# Cursor
+.cursor/
+cursor.config.json
+
+# Test/Docs
+test/
+docs/
+*.md
+
+# Firebase
+firebase.json
+firebase-debug.log
+
+# OS
+.DS_Store
